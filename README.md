@@ -1,19 +1,23 @@
 # Florida GeoJSON
 
-Florida GeoJSON files for state and county lines. Exclusively for the state of Florida. Especially useful to bundle into Plotly maps.
+Florida GeoJSON files for state and county lines. Exclusively for the state of
+Florida. Especially useful to bundle into Plotly maps.
 
 I added Python code on how to slice separate state.
 
-Slicing only the state will save precious memory when writing into apps or Plotly maps.
+Slicing only the state will save precious memory when writing into apps or
+Plotly maps.
 
-The last recommendation I would make would be to minify the resulting JSON file, a simply Google search for **JSON minify** will do, I personally used https://codebeautify.org/jsonminifier.
+The last recommendation I would make would be to minify the resulting JSON file,
+a simply Google search for **JSON minify** will do, I personally used
+https://codebeautify.org/jsonminifier.
 
 In case you're wondering state data:
 
 ## FIPS States
 
 | State                    | FIPS |
-|--------------------------|------|
+| ------------------------ | ---- |
 | Alabama                  | 01   |
 | Alaska                   | 02   |
 | Arizona                  | 04   |
